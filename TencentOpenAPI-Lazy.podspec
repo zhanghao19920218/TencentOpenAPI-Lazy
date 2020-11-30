@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TencentOpenAPI-Lazy'
-  s.version          = '3.3.9'
+  s.version          = '3.5.1'
   s.summary          = 'A short description of TencentOpenAPI.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/LazyJiu/TencentOpenAPI.git', :tag => s.version.to_s }
 
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.vendored_framework = 'TencentOpenAPI.framework'
   s.libraries = "z", "c++", "iconv", "sqlite3"
